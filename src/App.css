@@ -1,0 +1,73 @@
+.dflex {
+  display: flex;
+  flex-direction: row;
+}
+
+.container {
+  background-color: #f4f5f9;
+  padding: 10px 50px;
+}
+
+header p {
+  padding-right: 30px;
+}
+
+header {
+  margin-bottom: 20px;
+}
+
+.emailsList .userImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  background-color: #e54065;
+  color: #fff;
+  text-align: center;
+}
+
+.emailsList .userImage p {
+  font-size: 15px;
+}
+
+.emailsList .email {
+  background-color: #fff;
+  border: 2px solid #ddd;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.emailsList .email .description {
+  padding-left: 50px;
+  align-items: center;
+}
+
+.emailsList .email .description > div {
+  /* line-height: 5px; */
+}
+
+.emailsList .email .description .from {
+  margin-top: -20px;
+}
+
+.emailsList .email .description .from p:nth-child(2) {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.emailsList .email .description .subject {
+  margin-top: -20px;
+}
+
+.emailsList .email .description .subject p:nth-child(2) {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.emailsList .email .description .date button {
+  color: #fff;
+  background-color: #e54065;
+  font-weight: 800;
+  margin-left: 30px;
+  vertical-align: center;
+  /* font-size: 15px; */
+}
